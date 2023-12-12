@@ -1,0 +1,318 @@
+body {
+  font-family: "Inter", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  background-color: #0E1014;
+}
+
+.container {
+  position: relative;
+  max-width: 1145px;
+  margin: 0 auto;
+}
+
+.nav__wrapper {
+  margin-top: 56px;
+  height: 73px;
+  padding: 11px 0 4px;
+  display: grid;
+  grid-template-columns: 148px 48px 503px 138px 310px;
+}
+.nav__logo {
+  cursor: pointer;
+}
+.nav__logo img {
+  width: 100%;
+  margin-bottom: 8px;
+}
+.nav__text {
+  display: inline-block;
+  color: #E4E5EA;
+  font-family: "Montserrat";
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+.nav__items {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  justify-content: space-between;
+  padding-left: 0;
+}
+.nav__items li a {
+  color: #E4E5EA;
+  font-family: "Inter";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.nav__contacts {
+  display: grid;
+  grid-template-columns: 146px 45px auto;
+}
+.nav__number a {
+  color: #E4E5EA;
+  font-family: "Inter";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.nav__social {
+  margin-top: 2px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.content__wrapper {
+  margin-top: 86px;
+  display: grid;
+  grid-template-columns: 362px 481px 300px;
+}
+.content__title {
+  color: #E4E5EA;
+  font-family: "Inter";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 30px;
+}
+.content__title span {
+  font-size: 48px;
+  font-weight: 900;
+  background-color: rgb(252, 176, 69);
+  background-image: linear-gradient(90deg, rgb(252, 176, 69), rgb(255, 63, 120));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.content__subtitle {
+  color: #E4E5EA;
+  font-family: "Montserrat";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.content__right {
+  text-align: right;
+}
+.content__right-title {
+  color: var(--light-text, #E4E5EA);
+  text-align: right;
+  font-family: "Inter";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-top: 19px;
+}
+.content__right-title span {
+  background: linear-gradient(90deg, #FCB045 36.99%, #FD1D1D 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 700;
+  letter-spacing: 0.9px;
+  text-transform: uppercase;
+}
+.content__ad320px {
+  display: none;
+}
+.content__ad {
+  margin-top: 40px;
+  display: grid;
+  grid-template: repeat(2, minmax(20px, 70px))/repeat(2, 137px);
+  gap: 29px 30px;
+}
+.content__ad h3 {
+  color: #E4E5EA;
+  text-align: right;
+  font-family: "Inter";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.9px;
+  text-transform: uppercase;
+}
+.content__ad p {
+  color: #E4E5EA;
+  text-align: right;
+  font-family: "Montserrat";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.btn {
+  width: 260px;
+  height: 61px;
+  background: #4077F3;
+  color: #E4E5EA;
+  text-align: center;
+  font-family: "Inter";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  border-radius: 0;
+  margin-top: 58px;
+}
+.btn:hover {
+  background: #0c53fa;
+}
+
+.footer__wrapper {
+  margin-top: 125px;
+  display: grid;
+  grid-template-columns: 195px 97px 410px 163px 277px;
+}
+.footer__compani-title, .footer__menu-title, .footer__contacts-title {
+  color: #656566;
+  font-family: "Inter";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.7px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.footer__compani-items, .footer__menu-items {
+  color: #E4E5EA;
+  font-family: "Inter";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  list-style-type: none;
+  padding-left: 0;
+}
+.footer__compani-items li, .footer__menu-items li {
+  margin-bottom: 9px;
+}
+.footer__compani-items li a, .footer__menu-items li a {
+  color: #E4E5EA;
+}
+.footer__menu-items {
+  display: grid;
+  grid-template-rows: auto auto auto auto auto;
+  grid-auto-flow: column;
+  -moz-column-gap: 48px;
+       column-gap: 48px;
+}
+.footer__menu-item2 {
+  display: none;
+}
+.footer__contacts {
+  text-align: right;
+}
+.footer__number {
+  margin-top: 20px;
+  color: #E4E5EA;
+  font-family: "Inter";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.footer__number a {
+  color: #E4E5EA;
+}
+.footer__social {
+  margin-top: 22px;
+}
+.footer__social a {
+  margin-right: 6px;
+}
+.footer__social a:last-child {
+  margin-right: 0;
+}
+.footer__adress {
+  margin-top: 12px;
+  color: #E4E5EA;
+  font-family: "Inter";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.footer__text {
+  margin-top: 70px;
+  color: #E4E5EA;
+  font-family: "Montserrat";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.footer__policy {
+  margin-top: 5px;
+  font-family: "Montserrat";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration-line: underline;
+}
+.footer__policy a {
+  color: #E4E5EA;
+}
+
+.circle1 {
+  position: absolute;
+  top: -285px;
+  left: 451px;
+  width: 259px;
+  height: 259px;
+  border-radius: 259px;
+  opacity: 0.5;
+  background: #833AB4;
+  filter: blur(196px);
+  z-index: -3;
+}
+
+.circle2 {
+  position: absolute;
+  top: 120px;
+  left: -260px;
+  width: 311px;
+  height: 311px;
+  opacity: 0.6;
+  border-radius: 311px;
+  background: #961A1A;
+  filter: blur(196px);
+  z-index: -3;
+}
+
+.circle3 {
+  position: absolute;
+  top: 397px;
+  left: 705px;
+  width: 28px;
+  height: 28px;
+}
+
+.circle4 {
+  position: absolute;
+  top: -120px;
+  left: 373px;
+  width: 83px;
+  height: 83px;
+}
+
+.circle5 {
+  position: absolute;
+  top: -215px;
+  left: 720px;
+  width: 83px;
+  height: 83px;
+}
+
+.circle6, .circle7 {
+  display: none;
+}/*# sourceMappingURL=content.css.map */
